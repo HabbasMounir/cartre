@@ -1,0 +1,124 @@
+.wsmo{
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+background-color: aqua;
+width: 100%;
+margin: 0;
+top: 10px;
+}
+.cart{
+display: flex;
+flex-direction: column;
+position: absolute;
+gap: 10px;
+}
+.cart>span{
+  cursor: pointer;
+  background-color: aqua;
+  height: 20px;
+  width: 80px;
+  /* color: red; */
+  color: white;
+  background-color: black;
+  text-align: center;
+
+}
+.cart>.cartList{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 300px;
+  /* width: 150px; */
+  /* color: red; */
+  /* outline: 2px solid; */
+
+  /* background-color: black; */
+  /* overflow-y: scroll; */
+}
+.container{
+  display: flex;
+  flex: grow;;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin-top: 60px;
+}
+.card{
+  width:100%;
+  max-width: 300px;
+  max-height: 450px;
+  /* padding: 1px 0; */
+  background-color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid;
+
+}
+.car{
+  width:100%;
+  max-width: 300px;
+  max-height: 450px;
+  /* padding: 1px 0; */
+  /* background-color: ghostwhite; */
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10px;
+  justify-content: space-around;
+  padding: 0px 5px;
+  /* outline: 2px solid; */
+
+}
+.carttite{
+  color: rebeccapurple;
+    background-color: ghostwhite;
+
+  font-size: 10px;
+  outline: 1px solid;
+  margin: 0;
+padding: 0; 
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.tite{
+  color: rebeccapurple;
+  font-size: 16px;
+}
+.cartbtn{
+  cursor: pointer;
+  user-select: none;
+  width: 20px;
+  text-align: center;
+  /* width: 40px; */
+  font-size: 12px;
+  background-color: red;
+outline: 0;  padding:  0px ;
+  margin: 5px auto;
+  font-weight: 700;
+}
+.card>img{
+  width: 100%;
+}
+.btn{
+  /* width: 40px; */
+  cursor: pointer;
+
+  background-color: red;
+outline: 0;  padding:  10px ;
+  margin: 5px auto;
+  font-weight: 700;
+}
+
+
+
+.filter{
+  text-align: center;
+position: absolute;
+right:  2vw;
+width: 60vw;
+}
